@@ -5,7 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import CssBaseline from "@material-ui/core/CssBaseline";
+// import CssBaseline from "@material-ui/core/CssBaseline";
 import clsx from "clsx";
 
 import SideBar from "./SideBar";
@@ -51,7 +51,6 @@ const Header = ({ open, setOpen }) => {
 
   return (
     <>
-      <CssBaseline />
       <AppBar
         position="fixed"
         className={clsx(classes.appBar, {
@@ -69,7 +68,7 @@ const Header = ({ open, setOpen }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            HomePage
+            500Tech Manager
           </Typography>
         </Toolbar>
       </AppBar>
